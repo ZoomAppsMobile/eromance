@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Thu May 10 09:12:41 ALMT 2018
+7.path=lib/x86/librealm-jni.so
+2.base=C\:\\Users\\Asus\\Desktop\\Eromanse\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+5.set=DEX
+0.path=lib/armeabi-v7a/librealm-jni.so
+2.baseType=DIRECTORY
+3.base=C\:\\Users\\Asus\\Desktop\\Eromanse\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+7.baseType=DIRECTORY
+2.set=NATIVE_RESOURCE
+1.path=lib/x86_64/librealm-jni.so
+4.base=C\:\\Users\\Asus\\Desktop\\Eromanse\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\65
+7.set=NATIVE_RESOURCE
+count=8
+5.baseType=DIRECTORY
+2.path=lib/arm64-v8a/librealm-jni.so
+5.base=C\:\\Users\\Asus\\Desktop\\Eromanse\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\66
+4.set=DEX
+3.path=lib/mips/librealm-jni.so
+6.base=C\:\\Users\\Asus\\Desktop\\Eromanse\\app\\build\\intermediates\\assets\\debug
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=classes.dex
+7.base=C\:\\Users\\Asus\\Desktop\\Eromanse\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+6.set=ASSET
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=classes.dex
+0.base=C\:\\Users\\Asus\\Desktop\\Eromanse\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+6.path=fonts/Roboto Regular.ttf
+1.base=C\:\\Users\\Asus\\Desktop\\Eromanse\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+4.baseType=DIRECTORY
+0.set=NATIVE_RESOURCE

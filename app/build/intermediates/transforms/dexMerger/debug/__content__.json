@@ -1,0 +1,1 @@
+[{"name":"realm","index":65,"scopes":["PROJECT"],"types":["DEX"],"format":"DIRECTORY","present":true},{"name":"externalLibs","index":66,"scopes":["EXTERNAL_LIBRARIES"],"types":["DEX"],"format":"DIRECTORY","present":true}]

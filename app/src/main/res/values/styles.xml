@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/golden</item>
+        <item name="colorControlActivated">@color/golden</item>
+    </style>
+
+    <style name="datePicker" parent="@android:style/Widget.DatePicker">
+        <item name="colorPrimary">@color/cardview_light_background</item>
+        <item name="colorPrimaryDark">@color/cardview_light_background</item>
+        <item name="colorAccent">@color/cardview_light_background</item>
+    </style>
+
+    <style name="timeDatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/cardview_light_background</item>
+        <item name="colorPrimaryDark">@color/cardview_light_background</item>
+        <item name="colorAccent">@color/cardview_light_background</item>
+    </style>
+
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorAccent">@color/golden</item>
+        <item name="android:textColorPrimary">@color/cardview_light_background</item>
+        <item name="android:textColor">@color/cardview_light_background</item>
+        <item name="android:textColorHint">@color/cardview_light_background</item>
+        <item name="android:textColorSecondary">@color/cardview_light_background</item>
+
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/golden</item>
+        <item name="colorControlActivated">@color/golden</item>
+    </style>
+
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:popupBackground">#DFFFFFFF</item>
+    </style>
+
+    <style name="MyRatingBar" parent="NoActionBarTheme">
+        <item name="colorControlNormal">@color/golden</item>
+        <item name="colorControlActivated">@color/golden</item>
+    </style>
+
+    <style name="NoActionBarTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="NoActionBarTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashscreen_bg</item>
+    </style>
+</resources>

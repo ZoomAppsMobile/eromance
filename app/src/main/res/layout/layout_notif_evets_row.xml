@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/element_container"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.percent.PercentRelativeLayout
+                android:id="@+id/avatar_container_PRL"
+                android:layout_weight="20"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_height="80dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/avatar_CIV"
+                    app:layout_widthPercent="100%"
+                    app:layout_aspectRatio="100%"
+                    android:src="@drawable/noavatar2"/>
+                <ImageView
+                    android:background="@drawable/round_view_for_icon_bg"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_message"
+                    android:id="@+id/notif_type_IV"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignBottom="@id/avatar_CIV"
+                    android:layout_alignRight="@id/avatar_CIV"/>
+            </android.support.percent.PercentRelativeLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:id="@+id/notif_info_container"
+                android:layout_weight="80"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/element_date_TV"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/custom_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/element_username_TV"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="No name"
+                        android:textColor="@color/golden"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/element_content_TV"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/you_like"
+                        android:textColor="#000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="1dp"
+            android:minHeight="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#030303"/>
+</LinearLayout>

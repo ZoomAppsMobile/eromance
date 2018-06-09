@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:id="@+id/main_element_contaienr"
+    android:background="@drawable/golden_stroke_bg"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/gift_image_IV"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/error_image_place_holder"
+        android:cropToPadding="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside" />
+    <TextView
+        android:id="@+id/gift_name_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:maxLines="2"
+        android:text="Gift Name"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+</LinearLayout>

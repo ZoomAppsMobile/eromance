@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zoomapps.eromance.Activities.auth.EditProfileActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_menu"
+            android:layout_alignTop="@+id/main_container"
+            android:layout_alignBottom="@id/main_container"
+            android:layout_alignLeft="@id/main_container"
+            android:layout_alignRight="@id/main_container"/>
+            <LinearLayout
+                android:id="@+id/main_container"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"/>
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/user_reg_data_LL"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/btn_next_LL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:elevation="2dp">
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/stCounty"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/cardview_light_background"
+                        android:focusable="false"
+                        android:gravity="top|left"
+                        android:longClickable="false"
+                        android:padding="0dp"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Страна"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp" />
+
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/stCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="3dp"
+                        android:focusable="false"
+                        android:longClickable="false"
+                        android:padding="0dp"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Город"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp" />
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_marginTop="4dp"
+                        android:id="@+id/stDateOfBirth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/etDateOfBirth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:ems="8"
+                            android:hint="@string/year_birth"
+                            android:inputType="date" />
+
+                    </android.support.design.widget.TextInputLayout>
+                    <!--     <fr.ganfra.materialspinner.MaterialSpinner
+                             android:id="@+id/stDateOfBirth"
+                             android:layout_width="match_parent"
+                             android:layout_height="40dp"
+                             android:layout_alignParentStart="true"
+                             android:layout_below="@+id/stCity"
+                             android:layout_marginTop="3dp"
+                             android:focusable="false"
+                             android:longClickable="false"
+                             app:ms_alignLabels="false"
+                             app:ms_arrowColor="@color/cardview_light_background"
+                             app:ms_arrowSize="16dp"
+                             app:ms_baseColor="@color/cardview_light_background"
+                             app:ms_enableErrorLabel="false"
+                             app:ms_enableFloatingLabel="false"
+                             app:ms_floatingLabelColor="@color/cardview_light_background"
+                             app:ms_floatingLabelText="floating label"
+                             app:ms_hint="Год рождения"
+                             app:ms_hintColor="@color/cardview_light_background"
+                             app:ms_multiline="false"
+                             app:ms_thickness="1dp" />
+
+                         <fr.ganfra.materialspinner.MaterialSpinner
+                             android:id="@+id/stNick"
+                             android:layout_width="match_parent"
+                             android:layout_height="40dp"
+                             android:layout_alignParentEnd="true"
+                             android:layout_alignStart="@+id/stDateOfBirth"
+                             android:layout_below="@+id/stDateOfBirth"
+                             android:layout_marginTop="3dp"
+                             android:focusable="false"
+                             android:focusableInTouchMode="false"
+                             android:nestedScrollingEnabled="false"
+                             app:ms_alignLabels="false"
+                             app:ms_arrowColor="@color/cardview_light_background"
+                             app:ms_arrowSize="16dp"
+                             app:ms_baseColor="@color/cardview_light_background"
+                             app:ms_enableErrorLabel="false"
+                             app:ms_enableFloatingLabel="false"
+                             app:ms_floatingLabelColor="@color/cardview_light_background"
+                             app:ms_floatingLabelText="floating label"
+                             app:ms_hint="Ник"
+                             app:ms_hintColor="@color/cardview_light_background"
+                             app:ms_multiline="false"
+                             app:ms_thickness="1dp" />-->
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/stNick"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+
+
+                        <EditText
+                            android:id="@+id/etNick"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:ems="8"
+                            android:hint="@string/name_user"
+                            android:inputType="text" />
+
+                    </android.support.design.widget.TextInputLayout>
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/stSex"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="3dp"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Пол"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp" />
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/stTarget"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="3dp"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Кого вы ищите"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp"
+                        android:visibility="gone" />
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/stLookFor"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="3dp"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Познакомлюсь с"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp" />
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/stAppearance"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="3dp"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Тип внешности"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp"
+                        android:visibility="gone" />
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/stCar"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="3dp"
+                        android:focusableInTouchMode="false"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Наличие автомобиля"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="bottom">
+                <Button
+                    android:id="@+id/btn_continion"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/btn_continion"
+                    android:text="@string/continues"
+                    android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

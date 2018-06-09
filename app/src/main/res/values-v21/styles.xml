@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="MyRatingBar" parent="NoActionBarTheme">
+        <item name="colorControlNormal">@color/golden</item>
+        <item name="colorControlActivated">@color/golden</item>
+    </style>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/activity_full_screen_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.zoomapps.eromance.Activities.FullScreenImage">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/imageListRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:padding="4dp"
+            android:background="#80000000"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btnClose"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/ic_back"
+                    android:textColor="#ffffff"
+                    android:text="Close" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/report_IV"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:padding="14dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    app:srcCompat="@drawable/ic_report"/>
+                <ImageView
+                    android:id="@+id/share_IV"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:padding="16dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/share_icon"/>
+        </LinearLayout>
+
+</RelativeLayout>

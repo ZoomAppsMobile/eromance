@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="textIndex">
+        <item name="skating">Катаюсь</item>
+        <item name="walking">Гуляю</item>
+        <item name="rest">Отдыхаю</item>
+        <item name="miss">Скучаю</item>
+        <item name="dancing">Танцую</item>
+        <item name="film">Фильм</item>
+    </string-array>
+    <string name="Send_Data_Empty">Данные для отправки пустые</string>
+    <string name="Send_To_Moderation">Ваш запрос отправлен на модерацию</string>
+    <string name="Soon">Данная функция скоро появится</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ОТКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Открыть доступ приложению \"<ns1:g id="APPLICATION_NAME">%s</ns1:g>\""</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="accept">Принять</string>
+    <string name="access_cd_card">Нужен доступ к SD-CARD для загрузки аватара.</string>
+    <string name="add">Добавить</string>
+    <string name="add_information">Информация о добавлении</string>
+    <string name="add_your_favirites">Добавил вас в избранное</string>
+    <string name="additional_description">Доп.описание</string>
+    <string name="additionally">Дополнительно:</string>
+    <string name="address">Адрес</string>
+    <string name="age">Возраст</string>
+    <string name="album">Фото Альбом</string>
+    <string name="alcohol">Отношение к алкоголю</string>
+    <string name="all">Все</string>
+    <string name="all_game">Все игры</string>
+    <string name="all_meets">Встречи</string>
+    <string name="allow">Разрешить</string>
+    <string name="already_answered">Вы уже ответили на данную игру</string>
+    <string name="already_game_two_user">В игре уже 2 участника</string>
+    <string name="api_method_cant_be_empty">Метод api не может быть пустым или null</string>
+    <string name="authorization_canceled">Авторизация была отменена</string>
+    <string name="auto_prolongation">Автопродление</string>
+    <string name="average_check">Средний чек</string>
+    <string name="balance">Мой баланс</string>
+    <string name="became_user">Вы стали вип пользователем</string>
+    <string name="become_VIP">Стать VIP</string>
+    <string name="before">до:</string>
+    <string name="block">Блокировка</string>
+    <string name="block_user">Вы действительно хотите разблокировать данного пользователя?</string>
+    <string name="blocked">заблокировали</string>
+    <string name="blocked_">Заблокировано</string>
+    <string name="call_support">Вы хотите позвонить в тех.поддержку?</string>
+    <string name="can_request_key_activation">Можно запросить код через: </string>
+    <string name="cancel">Отмена</string>
+    <string name="cancel_signin">Отмена входа</string>
+    <string name="car">Машина</string>
+    <string name="change_status">Изменить статус</string>
+    <string name="character">Характер</string>
+    <string name="chat">Чат</string>
+    <string name="check_in">Отметиться</string>
+    <string name="childs">Дети</string>
+    <string name="choice_language">Выберите язык</string>
+    <string name="city">Город</string>
+    <string name="click_view">Нажмите что посмотреть</string>
+    <string name="close">Закрыть</string>
+    <string name="code_activation">Код активации</string>
+    <string name="coins">Монеты</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Откройте &lt;b>facebook.com/device&lt;/b> и введите код, показанный выше.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Неожиданная ошибка при скачивании изображения.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">Для входа через WebView необходимо разрешение INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Ошибка AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Нравится</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Нравится</string>
+    <string gender="unknown" name="com_facebook_loading">Загрузка...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Отмена</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Войти</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Продолжить с Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Вход через Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Выйти</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Выйти</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Вы вошли как %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Выполнен вход через Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Отправить</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Поделиться</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Чтобы привязать ваш аккаунт, откройте приложение Facebook на своем мобильном устройстве и проверьте уведомления.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- ИЛИ -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Не Вы?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Продолжить как %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Подтвердите вход</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Контроль над данными — выберите, какой информацией вы хотите делиться с приложениями.</string>
+    <string name="come">Войти</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется установить сервисы Google Play."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установите сервисы Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Доступность сервисов Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Приложению \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" не удается подключиться к сервисам Google Play. Повторите попытку."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите сервисы Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Обновите сервисы Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Войти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
+    <string name="complaint">Жалоба</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="confirm_choice">Вы подтверждаете свой выбор?</string>
+    <string name="confirm_payment">Подтвердить оплату</string>
+    <string name="confirm_registration">Подтвердить регистрацию</string>
+    <string name="connect_meets">Присоединиться</string>
+    <string name="constraints_password">Пароль должен состоять более 5 символов</string>
+    <string name="continues">Продолжить</string>
+    <string name="country">Страна</string>
+    <string name="couples">Пары</string>
+    <string name="create">Создать</string>
+    <string name="created">Создал</string>
+    <string name="currency">валюта</string>
+    <string name="current_location">Ваше местоположение</string>
+    <string name="current_password">Текущий пароль</string>
+    <string name="dancing">Танцую</string>
+    <string name="date">Дата</string>
+    <string name="date_meeting">Дата встречи</string>
+    <string name="day_ago">дней назад</string>
+    <string name="days">Дней</string>
+    <string name="deck">Прежде чем мы начнем отвечать на озвученный в заголовке вопрос, осмотритесь. Сколько девайсов находится на вашем столе или на расстоянии вытянутой руки? Наверняка, это настольный компьютер или ноутбук, планшет и, конечно же, смартфон. Сегодня человек сам создает вокруг себя личную электронную экосистему с помощью мобильной техники. Она заменяет массу других вещей, активно использовавшихся пять, десять, двадцать лет назад. Ежедневник, будильник, калькулятор, диктофон, фотокамера – мобильная электроника эффективно выполняет функции этих и многих других вещей.  Каждый пользователь такого гаджета – ваш потенциальный клиент. В ресторанах, барах, фитнес-клубах, магазинах, везде люди активно используют мобильную электронику для самых разных целей. Благодаря этому у предпринимателей XXI века появилась уникальная возможность находиться на связи с потребителем 24 часа в сутки. Если раньше для получения отзывов приходилось изучать жалобную книгу и проводить дорогостоящие опросы, сегодня для этого достаточно попасть в гаджет клиента.  Разработка мобильного приложения – дело гораздо более сложное, чем создание сайтов. Три наиболее распространенных операционных системы (Android, iOS и Windows Phone), сотни девайсов с различными дисплеями и техническими характеристиками, управление прикосновениями и жестами – все это налагает очень высокие требования к квалификации и опыту разработчиков мобильных приложений. Штат специалистов студии Creabox может разработать мобильное приложение для вашего бизнеса, учитывая все его особенности. Индивидуальный подход к разработке каждого мобильного приложения позволяет нам создавать действительно эффективные и интересные пользователям продукты.  Но прежде чем заказывать разработку мобильного приложения, нужно четко понять, для чего оно требуется именно вашему проекту или предприятию.  Яркий тому пример – мобильное приложение американской сети кофеен Starbucks. Его главной особенностью является мультибрендинговая программа лояльности My Starbucks Rewards. Накапливаемые в приложении «звезды» пользователи могут тратить на получение бесплатной продукции. Такой подход к ведению бизнеса обеспечил компании известность в США и всем мире. А количество покупок, осуществляемых с помощью мобильного телефона, в кофейне растет постоянно.</string>
+    <string name="decline">Отклонить</string>
+    <string name="delete">Удалено</string>
+    <string name="delete_account">Удалить учетную запись</string>
+    <string name="delete_archive">Удалить в архив</string>
+    <string name="delete_checkic">Убрать мою отметку</string>
+    <string name="delete_game">Игра удалена</string>
+    <string name="delete_image">Вы хотите удалить эту картинку</string>
+    <string name="delete_noted">Удалить отметку</string>
+    <string name="delete_noted_user">Вы хотите убрать отмеченного пользователя</string>
+    <string name="delete_photo">Удалить фото</string>
+    <string name="delicate_conversation">Деликатный разговор</string>
+    <string name="description">описание</string>
+    <string name="detail">Детали</string>
+    <string name="detailed_address">Подробный адресс</string>
+    <string name="details_meeting">Детали встречи</string>
+    <string name="disconnect">Отсоединиться</string>
+    <string name="dont_allow">Запретить</string>
+    <string name="draw">Ничья</string>
+    <string name="driving_directions">Схема проезда</string>
+    <string name="duration">Продолжительность:</string>
+    <string name="edit">Редактировать</string>
+    <string name="edit_password">Изменить пароль</string>
+    <string name="electric_register">Электронная почта необходима только для регистрации в данном приложении</string>
+    <string name="email_no">Данной почты не существует!</string>
+    <string name="empty">Пусто</string>
+    <string name="error">Ошибка</string>
+    <string name="error_code">Указвнный код не правильный</string>
+    <string name="error_connect">Не удалось подключиться к серверу</string>
+    <string name="error_data">Не удалось получить данные</string>
+    <string name="error_delete_account">Ошибка при удалении аккаунта</string>
+    <string name="error_failed_ssl_handshake">Не удалось установить SSL соединение</string>
+    <string name="error_host_lookup">Сервер недоступен</string>
+    <string name="error_request">Не удалось отправить запрос</string>
+    <string name="error_server">Ошибка сервера</string>
+    <string name="error_sign">Не удалосб войти</string>
+    <string name="error_ssl_date_invalid">Не удалось установить SSL соединение. Возможно, установлена неправильная дата</string>
+    <string name="error_ssl_expired">Не удалось установить SSL соединение. Сертификат истек</string>
+    <string name="error_ssl_id_mismatch">Не удалось установить SSL соединение. Имя хоста не совпадает</string>
+    <string name="error_ssl_not_yet_valid">Не удалось установить SSL соединение. Возможно, установлена неправильная дата</string>
+    <string name="error_ssl_untrusted">Не удалось установить SSL соединение. CA не является доверенным</string>
+    <string name="error_timeout">Время ожидания сервера истекло</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <string name="error_upload_image">Не удалось загрузить картинки</string>
+    <string name="escort">Сопровождение/эскорд</string>
+    <string name="events">События</string>
+    <string name="exit_account">Выйти из аккаунта</string>
+    <string name="expectation">Ожидание</string>
+    <string name="expense">За мой счет</string>
+    <string name="extend">Продлить</string>
+    <string name="family_status">Семейное положение</string>
+    <string name="farther">Дальше</string>
+    <string name="favorites">Избранные</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Другое"</string>
+    <string name="feedback">Обратная связь\n с разработчиками приложения</string>
+    <string name="fill_field">Заполните все поля</string>
+    <string name="film">Фильм</string>
+    <string name="filtr">Фильтр</string>
+    <string name="floor">Пол</string>
+    <string name="friend_uids_cant_be_empty">friend uids не может быть пустым или null</string>
+    <string name="from">от:</string>
+    <string name="game">Игры</string>
+    <string name="game_end">Игра уже завершена</string>
+    <string name="get_service">Я хочу получить услугу</string>
+    <string name="gifts">Подарки</string>
+    <string name="girl">Женщина</string>
+    <string name="give_service">Я хочу предоставлять услуги</string>
+    <string name="go_dispatch">Идет отправка</string>
+    <string name="go_upload">Идет загрузка...</string>
+    <string name="growth">Рост</string>
+    <string name="guests">Гости</string>
+    <string name="hair_color">Цвет волос</string>
+    <string name="head">Главная</string>
+    <string name="hide">Скрыть</string>
+    <string name="history_game">История игр</string>
+    <string name="hour">1 час</string>
+    <string name="hour_ago">Час назад</string>
+    <string name="hours">2 часа</string>
+    <string name="hours_">Часов</string>
+    <string name="hours_ago">часов назад</string>
+    <string name="in_drawing">на рисунок</string>
+    <string name="in_establishments">на заведения</string>
+    <string name="in_user">на пользователя</string>
+    <string name="info">Инфо</string>
+    <string name="information_meets">Информация встречи</string>
+    <string name="interests">Интересы</string>
+    <string name="internet_error">Нет подключения к сети</string>
+    <string name="introduced">Ознакомлен</string>
+    <string name="introduction">Познакомлюсь</string>
+    <string name="invite_canceled">Приглашение друзей отменено</string>
+    <string name="language">Язык</string>
+    <string name="languages">Языки</string>
+    <string name="learn_more">Подробнее</string>
+    <string name="liked">понравились</string>
+    <string name="likes">Мои лайки</string>
+    <string name="list_empty">Список пуст</string>
+    <string name="list_subscribers">Список подписчиков</string>
+    <string name="location_userprofile">Текущее Месторасположение</string>
+    <string name="log_in_through">Авторизоваться через</string>
+    <string name="login">Логин</string>
+    <string name="login_and_password_no_search">Комбинация логин/пароль не найдена</string>
+    <string name="loss">Проигрыш</string>
+    <string name="male">Мужской</string>
+    <string name="mamental_meets">Моментальные встречи</string>
+    <string name="man">Мужчинa</string>
+    <string name="map">Карта</string>
+    <string name="maps">Карты</string>
+    <string name="massages">Сообщения</string>
+    <string name="meeting_goal">Цель встречи:</string>
+    <string name="meeting_wants">Вашей встрече хочет присоединиться</string>
+    <string name="meets">Ваша встреча</string>
+    <string name="message">Сообщение</string>
+    <string name="minutes">Минут</string>
+    <string name="minutes_ago">минут назад</string>
+    <string name="miss">Скучаю</string>
+    <string name="money">Монет</string>
+    <string name="month_ago">месяцов назад</string>
+    <string name="my_city_user">Из моего города</string>
+    <string name="my_event">Мои события</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="myself">О себе</string>
+    <string name="name_">Название</string>
+    <string name="name_institution">Название заведения</string>
+    <string name="name_surname">Имя Фамилия</string>
+    <string name="name_user">Имя</string>
+    <string name="name_user_">Имя пользователя</string>
+    <string name="necessary_email">Электронная почта необходима только для регистрации в данном приложении</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="no">Нет</string>
+    <string name="no_application_data">Отсутствует id или публичный ключ приложения</string>
+    <string name="no_confirmed_email">Вы не подтвердили свой email</string>
+    <string name="no_data">Нет информации</string>
+    <string name="no_get_data">Не удалось получить данные</string>
+    <string name="no_gift">К сожелению у вас нет подарков</string>
+    <string name="no_image">Нет Картинок</string>
+    <string name="no_information">Не указано</string>
+    <string name="no_money">Ваших монет не достаточно для данной ставки</string>
+    <string name="no_ok_application_installed">Необходимо наличии приложения Одноклассники для проведения SSO авторизации.</string>
+    <string name="no_search_current_location">Мы не смоги определить ваше местоположение</string>
+    <string name="no_status">Нет статуса</string>
+    <string name="no_upload_image">У вас пока нет загруженных картинок</string>
+    <string name="no_valid_token">Нет действующего токена</string>
+    <string name="not_compain_photo">К сожелению на эту фотографию нельзя пожаловаться</string>
+    <string name="not_found">Не найдено</string>
+    <string name="not_known">Не известно</string>
+    <string name="not_one">Не один(-на)</string>
+    <string name="noted">Отмечен</string>
+    <string name="notifacation">Уведомления</string>
+    <string name="notification_of">Уведомления включены</string>
+    <string name="occupation">Род деятельности</string>
+    <string name="of_notification">Вы хотите включить уведомления</string>
+    <string name="ok">Ок</string>
+    <string name="on_notification">Вы хотите выключить уведомления</string>
+    <string name="online_users">Онлайн пользователей</string>
+    <string name="opponents">Соперники</string>
+    <string name="packages">Комплекция</string>
+    <string name="password">Пароль</string>
+    <string name="password_send_email">Пароль отправлен, на указанную почту</string>
+    <string name="payment">Оплата</string>
+    <string name="phone">Телеофон</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="photo_album">Фотоальбом</string>
+    <string name="place_rest">Место для отдыха</string>
+    <string name="places">Места</string>
+    <string name="places_rest">Места для отдыха</string>
+    <string name="plans">Планы</string>
+    <string name="plans_evening">Планы на вечер</string>
+    <string name="posting_canceled">Постинг был отменен</string>
+    <string name="price">Цена</string>
+    <string name="professional_massage">Профессиональный массаж</string>
+    <string name="profile">Профиль</string>
+    <string name="rate">Ставка</string>
+    <string name="rating">Рейтинг</string>
+    <string name="reason_complaint">Причина жалобы</string>
+    <string name="reestablish_password">Изменить пароль</string>
+    <string name="refill">Инструкция \nо пополнении счета баланса</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="rejected_bid">Вашу заявку отклонили</string>
+    <string name="remaining_time">Оставщяся время</string>
+    <string name="removal_information">Информация о удалении</string>
+    <string name="reply_moderator">Вы уже отправляли запрос, ожидайте ответ от модератора</string>
+    <string name="request">Запросы</string>
+    <string name="request_key_activation">Запросить код активации</string>
+    <string name="rest">Отдыхаю</string>
+    <string name="restore_password">Восстановить пароль</string>
+    <string name="result_empty">Поиск не дал результатов</string>
+    <string name="retry">Повторить</string>
+    <string name="reviews">Отзывы</string>
+    <string name="risks">все риски, связанные с использованием данного раздела</string>
+    <string name="save">Сохранить</string>
+    <string name="save_user">Запомнить меня</string>
+    <string name="search">Поиск</string>
+    <string name="search_">Искать</string>
+    <string name="search_couples">Поиск Пары</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
+    <string name="search_param">Параметры поиска</string>
+    <string name="seconds_ago">секунд назад</string>
+    <string name="select">Выбрать</string>
+    <string name="select_bid">Выберите ставку</string>
+    <string name="select_item">Выбрать предмет</string>
+    <string name="select_option">Выберите вариант</string>
+    <string name="select_type">Выбирите тип</string>
+    <string name="selection_user">Выбор пользователя</string>
+    <string name="selection_user_width_you">Вы хотите отметить пользователя который будет с вами</string>
+    <string name="send">Отправить</string>
+    <string name="send_invitation">Отправить приглашение</string>
+    <string name="send_request">Запрос отправлен</string>
+    <string name="send_request_">Отправить запрос</string>
+    <string name="send_success_gift">Подарок успешно отправлен</string>
+    <string name="setting">Настройки</string>
+    <string name="setting_language">Настройка языка</string>
+    <string name="share">Поделиться</string>
+    <string name="short_description">Краткое описание</string>
+    <string name="show">Показать</string>
+    <string name="skating">Катаюсь</string>
+    <string name="skip">Пропустить >></string>
+    <string name="smoking">Отношение к курению</string>
+    <string name="status">Статус</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="string_register_email">Электронная почта </string>
+    <string name="string_register_login">Придумайте логин</string>
+    <string name="strip_dancing">Стрип-Танцы</string>
+    <string name="subject">Предмет</string>
+    <string name="success">Успешно</string>
+    <string name="success_delete">Вы успешно удалили</string>
+    <string name="success_delete_account">Вы успешно удалили аккаунт</string>
+    <string name="success_evening">Вы успешно присоединились</string>
+    <string name="success_register">Спасибо, вы успешно зарегистрировались!</string>
+    <string name="success_update_password">Пароль успешно изменен</string>
+    <string name="suggest_canceled">Рекомендация друзьям отменена</string>
+    <string name="time_meeting">Время встречи</string>
+    <string name="timer_end">Дождитесь таймера</string>
+    <string name="top_user">Топ пользователей</string>
+    <string name="total">Всего:</string>
+    <string name="total_">Итого</string>
+    <string name="total_coins">Монет</string>
+    <string name="type_appearance">Тип внешности</string>
+    <string name="type_institution">тип заведения</string>
+    <string name="type_payment">Тип оплаты</string>
+    <string name="uncover">Раскрыть</string>
+    <string name="unknown">Не определено</string>
+    <string name="unknown_data">Неизвестная ошибка</string>
+    <string name="update">Обновить</string>
+    <string name="update_status">Вы стали вип пользователем</string>
+    <string name="upload_albul_payment">Чтобы загрузить больше фотографии нужно отплатить</string>
+    <string name="user_data">Анкетные данные</string>
+    <string name="victory">Победа</string>
+    <string name="view">Посмотреть</string>
+    <string name="view_meeting">Вид встречи</string>
+    <string name="view_profile">Просматривал ваш профиль</string>
+    <string name="vip_user">Вы хотите стать VIP пользователем ?</string>
+    <string name="vk_enter_captcha_text">Введите текст с картинки</string>
+    <string name="vk_name">ВКонтакте</string>
+    <string name="vk_new_message_text">Введите текст сообщения..</string>
+    <string name="vk_new_post_settings">Настройки записи</string>
+    <string name="vk_retry">Повторить</string>
+    <string name="vk_send">ОТПРАВИТЬ</string>
+    <string name="vk_share">Поделиться</string>
+    <string name="wait">Подождите …</string>
+    <string name="walking">Гуляю</string>
+    <string name="want_here">Хочу сюда!</string>
+    <string name="website">Сайт</string>
+    <string name="weight">Вес</string>
+    <string name="womans">Женский</string>
+    <string name="work_hours">Часы работы</string>
+    <string name="year_birth">Год рождения</string>
+    <string name="years_ago">лет назад</string>
+    <string name="yes">Да</string>
+    <string name="you_blocked">Вы были заблокированы</string>
+    <string name="you_email">Ваш email</string>
+    <string name="you_expense">За ваш счет</string>
+    <string name="you_here">Вы здесь</string>
+    <string name="you_like">Лайкнул - (a) вас</string>
+    <string name="you_liked">Вы понравились</string>
+    <string name="you_lose">Вы проиграли</string>
+    <string name="you_news_status">Ваш новый статус</string>
+    <string name="you_select">Вы действительно выбираете</string>
+    <string name="you_send_gift">Вы отправили подарак</string>
+    <string name="you_send_gift_">Вам отправили подарак</string>
+    <string name="you_won">Вы выиграли</string>
+    <string name="your_reviews">Ваш отзыв ...</string>
+</resources>

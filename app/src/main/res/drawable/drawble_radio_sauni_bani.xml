@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+    <bitmap
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/ic_sauna_selection" />
+    </item>
+</layer-list>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:id="@+id/create_btn_container_LL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/create_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:background="@drawable/btn_game_create"
+                    android:text="@string/create" />
+            </LinearLayout>
+       <LinearLayout
+           android:layout_above="@id/create_btn_container_LL"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="#f6f6f6">
+           <android.support.v4.widget.NestedScrollView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="vertical"
+               android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include
+                        android:id="@+id/include_custom_toolbar"
+                        layout="@layout/custom_toolbar" />
+
+                    <TextView
+                        android:id="@+id/tv_map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:text="@string/game"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/whiteBackground"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:paddingRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="@string/total"
+                    android:textColor="@color/cardview_dark_background" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.21"
+                    app:srcCompat="@drawable/img_coins" />
+
+                <LinearLayout
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/overall_coins"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="@color/golden_gradient1"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textView62"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAllCaps="true"
+                            android:text="@string/coins"
+                            android:textColor="@color/golden_gradient1" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/background_game"
+                        android:layout_alignTop="@+id/bet_info_LL"
+                        android:layout_alignBottom="@id/bet_info_LL"
+                        android:layout_alignLeft="@id/bet_info_LL"
+                        android:layout_alignRight="@id/bet_info_LL"/>
+
+                     <LinearLayout
+                         android:id="@+id/bet_info_LL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView65"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="ставка на игру"
+                                android:textAlignment="center"
+                                android:textColor="@color/golden_gradient5"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/coin_value_TV"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="0"
+                                android:textAlignment="center"
+                                android:textColor="@color/golden_gradient5"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView67"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/total_coins"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textColor="@color/golden_gradient5"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                            <SeekBar
+                                android:id="@+id/coin_seekbar"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp" />
+
+                    </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView69"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_item"
+                        android:textAlignment="center"
+                        android:textColor="@color/golden" />
+
+                   <LinearLayout
+                       android:layout_marginTop="20dp"
+                       android:layout_marginBottom="20dp"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="10dp"
+                       android:orientation="horizontal"
+                       android:weightSum="90"
+                       android:id="@+id/game_variants_container"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:id="@+id/rock_variant_container"
+                            android:layout_weight="30"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/rock_variant_IV"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/icon_game_rock_uncheck"/>
+                        </LinearLayout>
+                       <LinearLayout
+                           android:id="@+id/scissors_variant_container"
+                           android:layout_weight="30"
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:gravity="center">
+                           <ImageView
+                               android:id="@+id/scissors_variant_IV"
+                               android:layout_width="70dp"
+                               android:layout_height="70dp"
+                               android:src="@drawable/icon_game_scissors_uncheck"/>
+                       </LinearLayout>
+                       <LinearLayout
+                           android:id="@+id/paper_variant_container"
+                           android:layout_weight="30"
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:gravity="center">
+                           <ImageView
+                               android:id="@+id/paper_variant_IV"
+                               android:layout_width="70dp"
+                               android:layout_height="70dp"
+                               android:src="@drawable/icon_game_paper_uncheck"/>
+                       </LinearLayout>
+                   </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_info"
+                        android:layout_width="180dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_gold_rectungle"
+                        android:text="@string/info"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18sp"
+                        android:layout_height="50dp" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+           </LinearLayout>
+           </android.support.v4.widget.NestedScrollView>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+<include
+android:id="@+id/include"
+layout="@layout/layout_menu" />
+    </android.support.v4.widget.DrawerLayout>

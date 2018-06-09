@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="#fff"
+        android:id="@+id/main_top_filter_item_container"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="85dp">
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/icon_bored"
+                android:id="@+id/main_top_filter_icon_IV"/>
+            <CheckBox
+                android:background="#fff"
+                android:buttonTint="@color/golden"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/MyCheckBox"
+                android:id="@+id/main_top_filter_icon_CB"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_top_filter_TV"
+                android:textColor="@color/golden"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

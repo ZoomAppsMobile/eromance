@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <!--  <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/main_container_LL"
+                android:layout_alignBottom="@id/main_container_LL"
+                android:layout_alignLeft="@id/main_container_LL"
+                android:layout_alignRight="@id/main_container_LL"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/backgound_search" />
+
+        <LinearLayout
+            android:id="@+id/main_container_LL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_Logo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="170dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/logoerom" />
+
+
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/tvLogin"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/iv_Logo">
+
+                                <EditText
+                                    android:id="@+id/etLogin"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_below="@+id/iv_Logo"
+                                    android:layout_marginLeft="16dp"
+                                    android:layout_marginRight="16dp"
+                                    android:ems="10"
+                                    android:hint="@string/login"
+                                    android:inputType="textEmailAddress" />
+                            </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/tvPass"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/tvLogin"
+                            android:layout_weight="1">
+                            <EditText
+                                android:id="@+id/etPass"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/etEmail"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:ems="10"
+                                android:hint="@string/password"
+                                android:inputType="textPassword" />
+
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <CheckBox
+                            android:id="@+id/cbAcceptRG"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="10dp"
+                            android:buttonTint="@color/cardview_light_background"
+                            android:checked="false"
+                            android:fontFamily="monospace"
+                            android:text="@string/save_user"
+                            android:textAllCaps="true"
+                            android:textColor="@color/cardview_light_background"
+                            android:textColorLink="@color/cardview_light_background"
+                            android:textCursorDrawable="@color/cardview_light_background"
+                            android:textDirection="anyRtl"
+                            android:theme="@style/MyCheckBox" />
+
+                        <TextView
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/tvRequestActivation"
+                            android:padding="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_below="@+id/cbAcceptRG"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/restore_password"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                        <android.support.constraint.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@+id/tvAuthAcross"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:paddingBottom="0dp"
+                            android:paddingTop="0dp">
+
+                            <Button
+                                android:id="@+id/btn_login"
+                                android:layout_width="160dp"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginStart="16dp"
+                                android:background="@drawable/btn_component_background"
+                                android:text="@string/come"
+                                android:textSize="16sp"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+
+                            <Button
+                                android:id="@+id/btn_reg"
+                                android:layout_width="160dp"
+                                android:layout_height="70dp"
+                                android:layout_marginEnd="16dp"
+                                android:background="@drawable/btn_component_background"
+                                android:text="@string/register"
+                                android:textSize="12sp"
+                                app:layout_constraintEnd_toEndOf="parent" />
+                        </android.support.constraint.ConstraintLayout>
+
+                        <TextView
+                            android:id="@+id/tvAuthAcross"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/linearLayout"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/log_in_through"
+                            android:textAlignment="center"
+                            android:textColor="@color/golden" />
+                    </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/btn_reg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/vk_BTN"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/icon_vk" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/facebook_btn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/icon_facebook" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/google_btn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/icon_google" />
+                    </LinearLayout>
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="1dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center">-->
+
+                        <!--<Button-->
+                            <!--android:id="@+id/mr_btn"-->
+                            <!--android:layout_width="50dp"-->
+                            <!--android:layout_height="50dp"-->
+                            <!--android:background="@drawable/icon_mr" />-->
+                    <!--</LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/odnok_btn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/icon_odnokl" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="35dp"
+                    android:layout_alignParentBottom="true">
+
+                    <!--TODO: Починить кнопку-->
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

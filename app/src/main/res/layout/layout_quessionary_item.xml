@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/q_item_IV"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/icon_profile_album"/>
+            <TextView
+                android:id="@+id/q_item_title_TV"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/golden"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="@string/location_userprofile"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/q_item_value_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Казахстан Алматы"
+            android:textColor="#000"
+            android:textSize="14dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+</LinearLayout>

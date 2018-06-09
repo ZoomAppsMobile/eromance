@@ -1,0 +1,3 @@
+# Referenced at C:\Users\Asus\Desktop\Eromanse\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:37
+-keep class com.zoomapps.eromance.MyApplication { <init>(...); }
+

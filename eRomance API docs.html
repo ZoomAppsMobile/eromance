@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="note-wrapper">
+            <h1>eRomance API docs</h1>
+<h2>Структура запроса</h2>
+<p><a href="http://eromance-api-app.dev/v1/ru/%7Bentity%7D/%7B?id%7CcustomMethod%7D">http://eromance-api-app.dev/v1/ru/{entity}/{?id|customMethod}</a></p>
+<br>
+<ol><li><span class='ordered-list-number'>1.</span> <i>eromance-api-app.dev</i> — базовый URL
+</li><li><span class='ordered-list-number'>2.</span> <i>v1</i> — версия API, сейчас доступна только 1
+</li><li><span class='ordered-list-number'>3.</span> <i>ru</i> — поле <b>abbr</b> языка из таблицы <b>languages</b>
+</li><li><span class='ordered-list-number'>4.</span> <i>entity</i> — название таблицы из базы данных
+</li><li><span class='ordered-list-number'>5.</span> <i>id</i> или <i>customMethod</i> — <b>ID</b> записи в базе данных при запросах на изменение и удаление, или имя кастомного метода (список ниже)
+</li></ol>
+<h2>Базовые CRUD запросы</h2>
+<p>Доступны для абсолютно любой таблицы в базе данных. </p>
+<p>Для примера возьмем таблицу <b>languages</b>.</p>
+<br>
+<ul><li>GET /languages  — получение всех записей 
+</li></ul>
+<p><img src='eRomance%20API%20docs/DA3A5C75-FE6D-4893-84B8-58280F93F3C7.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/911A256F-AD0E-4294-A4CC-41F8C277CEF5.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/9D2855F6-12D7-4C6F-B328-B94DA662E448.png'></p>
+<br>
+<br>
+<ul><li>GET <i>languages</i>find — поиск по записям используя любые данные из таблицы (id[]=1&id=2&abbr=ru)
+<ul><li>	При передачи данных массивом (как в примере с <b>ID</b>) строится <b>WHERE IN</b> запрос)
+</li><li>	При передачи одного значения (как в случае с <b>abbr</b>) строится простой <b>WHERE</b> запрос
+</li><li>	Все запросы строятся с условием <b>AND</b>
+</li></ul></li></ul>	
+<img src='eRomance%20API%20docs/C3E4D5C3-1401-4B7A-8AD8-3E0216CFF679.png'>
+
+<img src='eRomance%20API%20docs/D8184745-7846-429E-A5F4-29744D45CFF6.png'>
+
+<img src='eRomance%20API%20docs/34335C0B-07E7-452C-85DC-6D8FF6ACBA77.png'>
+
+
+<ul><li>GET /languages/1 — получение записи по <b>ID</b>
+</li></ul>
+<p><img src='eRomance%20API%20docs/4F6FCF95-1993-440A-856A-B3C00FF81D7D.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/264356A1-FC45-4DBA-BD99-153D230174FF.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/536EC17A-4011-41E6-B297-641A7F34124D.png'></p>
+<br>
+<br>
+<ul><li>POST /languages — добавление записи, в параметры необходимо передавать все поля
+</li></ul>
+<p><img src='eRomance%20API%20docs/54F1A845-F0BA-4DB7-B7B8-6C16E212AA4D.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/28C3E00A-AD5A-46DF-ABE9-319DF5D2C56F.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/359E5A7E-07FD-4241-999C-328225A4474B.png'></p>
+<br>
+<br>
+<ul><li>PUT /languages/1 — обновление данных записи, в параметры необходимо передавать все поля
+</li></ul>
+<p><img src='eRomance%20API%20docs/4EAE1EB6-9021-4CF6-B54D-D0637DDC402B.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/68A8EA1C-384D-4F0F-8BF7-87657A564F08.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/D5F35F5D-70EC-4AB0-AE5B-DA63EC9BCE8F.png'></p>
+<br>
+<br>
+<ul><li>DELETE /languages/1 — удаление записи
+</li></ul>
+<p><img src='eRomance%20API%20docs/43DD129C-DAFC-4790-84C3-026D9C029E22.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/ABA429A5-E57C-41E2-91B2-4110ED920AEB.png'></p>
+<br>
+<p><img src='eRomance%20API%20docs/0C18C438-3F59-485E-8E00-7DAE482A10DD.png'></p>
+<br>
+<br>
+<h2>Структура ответа</h2>
+<ul><li><b>code</b> — код ответа, не путать с ответом заголовка. 
+<ul><li>	 SUCCESS = 1 — все отлично
+</li></ul></li><li>	WRONG_PARAMS = 301 — не переданы все необходимые данные
+</li><li>	NOT_FOUND = 302 — запись по <b>ID</b> не найдена
+</li><li>	VALIDATION = 303 — ошибка валидации, данные вернуться в <b>data</b>
+</li><li><b>data</b> 
+<ul><li>	В случае ошибки — attribute => error.
+</li></ul></li></ul>
+<p><img src='eRomance%20API%20docs/9AA6E71C-C7B9-4CDC-B487-96BE4CBC2FED.png'></p>
+<br>
+<ul><li>	В случае успеха — данные из базы данных
+</li></ul>	
+<img src='eRomance%20API%20docs/4A80FC82-9D3E-4610-A79C-719A9A3CB9FE.png'>
+
+<ul><li>	В случае справочника
+<ul><li>		<i>key</i> — ключ справочника для переводов
+</li><li>		<i>value</i> — переведенный ключ, на язык указанный в URI
+</li></ul></li></ul>
+<p><img src='eRomance%20API%20docs/07226D12-E757-4D26-A0E1-4CA181F90FD2.png'></p>
+<br>
+<br>
+<h2>Уникальные запросы</h2>
+<ul><li><i>translations</i>pluck?entity_class={value} — вернет список ID => перевод для заданного класса. Используется для получения списка стран или городов к примеру, что бы сразу получать значения для выпадающего списка</li></ul>
+        </div>
+
+        <style>
+            html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}html{font-size:87.5%;line-height:1.57143em}html{font-size:14px;line-height:1.6em;-webkit-text-size-adjust:100%}body{background:#fcfcfc;color:#545454;text-rendering:optimizeLegibility;font-family:"Avenir-Book"}a{color:#de4c4f;text-decoration:none}h1{font-family:"Avenir-Medium";color:#333;font-size:1.6em;line-height:1.3em;margin-bottom:.78571em}h2{font-family:"Avenir-Medium";color:#333;font-size:1.3em;line-height:1em;margin-bottom:.62857em}h3{font-family:"Avenir-Medium";color:#333;font-size:1.15em;line-height:1em;margin-bottom:.47143em}p{margin-bottom:1.57143em;hyphens:auto}hr{height:1px;border:0;background-color:#dedede;margin:-1px auto 1.57143em auto}ul,ol{margin-bottom:1.57143em}ul ul,ul ol,ol ul,ol ol{margin-bottom:0px}b,strong{font-family:"Avenir-Heavy"}i,em{font-family:"Avenir-BookOblique"}code{font-family:"Menlo-Regular"}.text-overflow-ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sf_code_syntax_string{color:#D33905}.sf_code_syntax_comment{color:#838383}.sf_code_syntax_documentation_comment{color:#128901}.sf_code_syntax_number{color:#0E73A2}.sf_code_syntax_project{color:#5B2599}.sf_code_syntax_keyword{color:#0E73A2}.sf_code_syntax_character{color:#1B00CE}.sf_code_syntax_preprocessor{color:#920448}.note-wrapper{max-width:46em;margin:0px auto;padding:1.57143em 3.14286em}.note-wrapper.spotlight-preview{overflow-x:hidden}u{text-decoration:none;background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%,#e06e73 50%);background-repeat:repeat-x;background-size:2px 2px;background-position:0 1.05em}s{color:#878787}p{margin-bottom:0.1em}hr{margin-bottom:0.7em;margin-top:0.7em}ul li{text-indent:-0.6em}ul li:before{content:"•";color:#e06e73;display:inline-block;margin-right:0.3em}ul ul{margin-left:1.25714em}ol li{text-indent:-1.25em}ol ol{margin-left:1.25714em}blockquote{display:block;margin-left:-1em;padding-left:0.8em;border-left:0.2em solid #e06e73}.todo-list ul{margin-left:1.88571em}.todo-list li{text-indent:-1.75em}.todo-list li:before{content:"";display:static;margin-right:0px}.todo-checkbox{text-indent:-1.7em}.todo-checkbox svg{margin-right:0.3em;position:relative;top:0.2em}.todo-checkbox svg #check{display:none}.todo-checkbox.todo-checked #check{display:inline}.todo-checkbox.todo-checked .todo-text{text-decoration:line-through;color:#878787}.code-inline{display:inline-block;background:white;border:solid 1px #dedede;padding:0.0em 0.5em;font-size:0.9em}.code-multiline{display:block;background:white;border:solid 1px #dedede;padding:0.7em 1em;font-size:0.9em;overflow-x:auto}.hashtag{display:inline-block;color:white;background:#b8bfc2;padding:0.0em 0.5em;border-radius:1em}.hashtag a{color:#fff}.address a{color:#545454;background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%,#0da35e 50%);background-repeat:repeat-x;background-size:2px 2px;background-position:0 1.05em}.address svg{position:relative;top:0.2em;display:inline-block;margin-right:0.2em}.color-preview{display:inline-block;width:1em;height:1em;border:solid 1px rgba(0,0,0,0.3);border-radius:50%;margin-right:0.1em;position:relative;top:0.2em;white-space:nowrap}.color-code{margin-right:0.2em;font-family:"Menlo-Regular";font-size:0.9em}.color-hash{opacity:0.4}.ordered-list-number{color:#e06e73;text-align:right;display:inline-block;min-width:1em}.arrow svg{position:relative;top:0.08em;display:inline-block;margin-right:0.15em;margin-left:0.15em}.arrow svg #rod{stroke:#545454}.arrow svg #point{fill:#545454}img{max-width:100%;height:auto}
+
+        </style>
+    </body>
+</html>

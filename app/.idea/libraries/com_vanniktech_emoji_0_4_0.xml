@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.vanniktech:emoji-0.4.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emoji-0.4.0.aar/ee2e73e1a6d89a3e2cd7d3b56d110852/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/emoji-0.4.0.aar/ee2e73e1a6d89a3e2cd7d3b56d110852/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/emoji/0.4.0/9878807e4f93e906145b8ba19e62d4295ab8f489/emoji-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

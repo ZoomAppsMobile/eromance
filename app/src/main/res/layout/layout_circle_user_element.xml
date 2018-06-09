@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:id="@+id/itemContainer"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/users_row_container"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/LU_item">
+            <android.support.percent.PercentFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/element_avatar_IV"
+                    app:layout_widthPercent="100%"
+                    app:layout_aspectRatio="100%"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/noavatar2"/>
+                <ImageView
+                    android:src="@drawable/user_ava_frame"
+                    app:layout_widthPercent="100%"
+                    app:layout_aspectRatio="100%"/>
+                <LinearLayout
+                    android:layout_gravity="bottom"
+                    android:id="@+id/element_user_status_container"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="100%"
+                    android:paddingRight="25dp"
+                    android:paddingLeft="25dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/element_status_IV"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_status_online"
+                        android:adjustViewBounds="true"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:cropToPadding="true" />
+                    <ImageView
+                        android:id="@+id/element_stars_IV"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/icon_user_stars_five"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cropToPadding="true" />
+                </LinearLayout>
+            </android.support.percent.PercentFrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="textIndex">
+        <item name="skating">Тебемін</item>
+        <item name="walking">Қыдырамын</item>
+        <item name="rest">Демаламын</item>
+        <item name="miss">Сағынамын</item>
+        <item name="dancing">Билеймін</item>
+        <item name="film">Фильм</item>
+    </string-array>
+    <string name="Send_Data_Empty">Деректерді бос жіберу</string>
+    <string name="Send_To_Moderation">Сіздің сұранысыңыз модерацияға жіберілді</string>
+    <string name="Soon">Бұл функция жақын арада қол жетімді болады.</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Негізгі бетте қозғалу"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Жоғары қозғалу"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Басқа опциялар"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Дайын"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Барлығын көру"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Қолданбаны таңдау"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ӨШІРУЛІ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ҚОСУЛЫ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Іздеу…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Сұрақты жою"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Сұрақты іздеу"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Іздеу"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Сұрақты жіберу"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Дауыс арқылы іздеу"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Бөлісу"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> қолданбасымен бөлісу"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Тасалау"</string>
+    <string name="access_cd_card">SD-CARD-қа қолжетімділік керек аватара тие- үшін.</string>
+    <string name="add">Үстеу</string>
+    <string name="add_information">Үсте- туралы ақпарат</string>
+    <string name="add_your_favirites">Таңдамалыға сізді қостым</string>
+    <string name="additional_description">Қосымша. сипаттама</string>
+    <string name="additionally">Қосымша:</string>
+    <string name="address">Мекенжай</string>
+    <string name="age">Жас</string>
+    <string name="album">Сурет Альбом</string>
+    <string name="alcohol">Алкогольге қатынас</string>
+    <string name="all">Бәрі</string>
+    <string name="all_meets">Кездесулер</string>
+    <string name="allow">Рұқсат ету</string>
+    <string name="auto_prolongation">Авто ұзартылуы</string>
+    <string name="average_check">Орташа чек</string>
+    <string name="balance">Теңгерімім</string>
+    <string name="became_user">Сіз пайдаланушы болыңдар өмк</string>
+    <string name="become_VIP">VIP болу</string>
+    <string name="before">до:</string>
+    <string name="block">Бұғаттағыш</string>
+    <string name="block_user">Пайдаланушы осыны бұғаттан шығарғыңыз ба шынында келеді?</string>
+    <string name="call_support">Қонырау соққыңыз келеді в сонда. ма сүйеніш?</string>
+    <string name="can_request_key_activation">Кодты келесі жолдар арқылы сұрата аласыз: </string>
+    <string name="cancel">Орындатпау</string>
+    <string name="cancel_signin">Кіре беріс орындатпау</string>
+    <string name="car">Машина</string>
+    <string name="character">Мінез</string>
+    <string name="chat">Чат</string>
+    <string name="check_in">Белгілеу</string>
+    <string name="childs">Бала-шағалар</string>
+    <string name="choice_language">Тілді таңдап алыңыздар</string>
+    <string name="city">Қала</string>
+    <string name="close">Жабу</string>
+    <string name="code_activation">Белсендіру код</string>
+    <string name="coins">Тиын</string>
+    <string name="come">Кіру</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Қосу"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play қызметтерін қоспасаңыз, <ns1:g id="APP_NAME">%1$s</ns1:g> жұмыс істемейді."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play қызметтерін қосу"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Орнату"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Google Play қызметтері құрылғыда болмағандықтан, <ns1:g id="APP_NAME">%1$s</ns1:g> іске қосылмайды."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play қызметтерін алу"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play қызметтерінің қолжетімділігі"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play қызметтерінің қатесі"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> қолданбасында Google Play қызметіне байланысты белгісіз қате шықты. Әрекетті қайталаңыз."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> қолданбасы құрылғыңызда қолдау көрсетілмейтін Google Play қызметінсіз жұмыс істемейді."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Жаңарту"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Google Play қызметтерін жаңартпасаңыз, <ns1:g id="APP_NAME">%1$s</ns1:g> іске қосылмайды."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play қызметтерін жаңарту"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Қазіргі уақытта жаңартылып жатқан Google Play қызметтерінсіз <ns1:g id="APP_NAME">%1$s</ns1:g> іске қосылмайды."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play қызметтерінің жаңа нұсқасы қажет. Ол қысқа уақыттан кейін өзі жаңарады."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Телефонда ашу"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Кіру"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google арқылы кіру"</string>
+    <string name="complaint">Шағым</string>
+    <string name="confirm">Растау</string>
+    <string name="confirm_choice">Сіз өзімнің талғамыңызды растайсыз ба?</string>
+    <string name="confirm_payment">Төлемақыны растау</string>
+    <string name="confirm_registration">Тіркеуді растау</string>
+    <string name="constraints_password">Құпиясөз құралуға тиіс 5 түртінділерден астам</string>
+    <string name="continues">Жалғастыру</string>
+    <string name="country">Ел</string>
+    <string name="couples">Булар</string>
+    <string name="create">Жасау</string>
+    <string name="created">Жасадым</string>
+    <string name="currency">валюта</string>
+    <string name="current_location">Орналасқан жеріңіз</string>
+    <string name="current_password">Ағымдағы құпиясөз</string>
+    <string name="dancing">Билеймін</string>
+    <string name="date">Күн</string>
+    <string name="date_meeting">Кездесу күн</string>
+    <string name="day_ago">күн бұрын</string>
+    <string name="days">Күндер</string>
+    <string name="delete_account">Тіркеу жазбасын алып тастау</string>
+    <string name="delete_archive">Алыстату в мұрағат</string>
+    <string name="delete_checkic">Белгімді алдыру</string>
+    <string name="delete_image">Бұл суретті жою керек пе?</string>
+    <string name="delete_noted">Белгіні алып тастау</string>
+    <string name="delete_noted_user">Белгіледі пайдаланушыны алдырғыңыз келеді</string>
+    <string name="delete_photo">Суретті алып тастау</string>
+    <string name="delicate_conversation">Сыпайы әңгіме</string>
+    <string name="description">сипаттама</string>
+    <string name="detailed_address">Толық мекенжай</string>
+    <string name="details_meeting">Кездесу бөлшектер</string>
+    <string name="dont_allow">Тыйу</string>
+    <string name="draw">Тең ой</string>
+    <string name="driving_directions">Орналасқан жері</string>
+    <string name="duration">Ұзақтық:</string>
+    <string name="edit">Редакциялау</string>
+    <string name="edit_password">Құпиясөзді өзгерту</string>
+    <string name="electric_register">Электрондық пошта ғана қосымшада тіркеу үшін қажет осы</string>
+    <string name="email_no">Пошта емес осы бар!</string>
+    <string name="empty">Пусто</string>
+    <string name="error">Қате</string>
+    <string name="error_data">Мәліметтерді алуға мүмкіндік бермейін</string>
+    <string name="error_delete_account">Қате аккаунт алыстат- кезінде</string>
+    <string name="error_server">Сервер қате</string>
+    <string name="error_sign">Кіруге мүмкіндік бермейін</string>
+    <string name="error_upload_image">Суреттерді тиеуге мүмкіндік бермейін</string>
+    <string name="escort">Сопровождение/эскорд</string>
+    <string name="events">Уақиғалар</string>
+    <string name="exit_account">Аккаунттан шығу</string>
+    <string name="expectation">Болжаным</string>
+    <string name="expense">Есепшотым үшін</string>
+    <string name="extend">Ұзарту</string>
+    <string name="family_status">Отбасылық жағдай</string>
+    <string name="farther">Әрі қарай</string>
+    <string name="favorites">Таңдамалы</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Өзге"</string>
+    <string name="feedback">Қарама-қарсы связь\n бірге қосымша әзірлеушілер</string>
+    <string name="fill_field">Барлық алаңдарды толтырыңыздар</string>
+    <string name="film">Фильм</string>
+    <string name="filtr">Сүзгіш</string>
+    <string name="floor">Еден</string>
+    <string name="from">от:</string>
+    <string name="game">Ойын</string>
+    <string name="game_end">Енді ойын тындыр-</string>
+    <string name="get_service">Қызметті алғым келеді</string>
+    <string name="gifts">Сыйлықтар</string>
+    <string name="girl">Әйел</string>
+    <string name="give_service">Қызметтерді бергім келеді</string>
+    <string name="go_dispatch">Аттану барады</string>
+    <string name="go_upload">Тие- барады...</string>
+    <string name="growth">Бой</string>
+    <string name="guests">Қонақтар</string>
+    <string name="hair_color">Шаштар түс</string>
+    <string name="head">Бас</string>
+    <string name="hour">1 сағат</string>
+    <string name="hour_ago">Сағат бұрын</string>
+    <string name="hours">2 сағат</string>
+    <string name="hours_">Сағат</string>
+    <string name="hours_ago">сағат бұрын</string>
+    <string name="in_drawing">сурет бойынша</string>
+    <string name="in_establishments">мекемелерге</string>
+    <string name="in_user">әр пайдаланушы үшін</string>
+    <string name="info">Инфо</string>
+    <string name="information_meets">Кездесу ақпарат</string>
+    <string name="interests">Мүдделер</string>
+    <string name="introduced">Таныстырыл-</string>
+    <string name="introduction">Танысамын</string>
+    <string name="language">Тіл</string>
+    <string name="languages">Тілдер</string>
+    <string name="learn_more">Толығырақ</string>
+    <string name="likes">Лайки</string>
+    <string name="list_empty">Тізім бос</string>
+    <string name="list_subscribers">Жазылуштардың тізімі</string>
+    <string name="location_userprofile">Ағымдағы Орналасқан жері</string>
+    <string name="log_in_through">Авторизоваться арқылы</string>
+    <string name="login">Логин</string>
+    <string name="loss">Жеңіліс</string>
+    <string name="male">Аталық</string>
+    <string name="mamental_meets">Қолмақол кездесулер</string>
+    <string name="man">Ер</string>
+    <string name="map">Карта</string>
+    <string name="maps">Карталар</string>
+    <string name="massages">Хабарламалар</string>
+    <string name="meeting_goal">Кездесу мақсат:</string>
+    <string name="meeting_wants">Кездесуіңіз біріктірілгісі қалайды</string>
+    <string name="meets">Кездесуіңіз</string>
+    <string name="message">Хабарлама</string>
+    <string name="minutes">Минут</string>
+    <string name="minutes_ago">минут бұрын</string>
+    <string name="miss">Сағынамын</string>
+    <string name="money">Тиын</string>
+    <string name="month_ago">ай бұрын</string>
+    <string name="my_city_user">Қаламнан</string>
+    <string name="my_event">Уақиғаларым</string>
+    <string name="my_profile">Профильдегім</string>
+    <string name="myself">Өз туралы</string>
+    <string name="name_">Атау</string>
+    <string name="name_institution">Мектеп атау</string>
+    <string name="name_surname">Ат Фамилия</string>
+    <string name="name_user">Ат</string>
+    <string name="name_user_">Пайдаланушы ат</string>
+    <string name="necessary_email">Электрондық пошта ғана қосымшада тіркеу үшін қажет осы</string>
+    <string name="new_password">Жаңа құпиясөз</string>
+    <string name="no">Жоқ</string>
+    <string name="no_data">Ақпарат жоқ</string>
+    <string name="no_get_data">Мәліметтерді алуға мүмкіндік бермейін</string>
+    <string name="no_gift">Өкінішке сыйлықтарыңыз жоқ</string>
+    <string name="no_image">Суреттер жоқ</string>
+    <string name="no_information">Көрсетпейін</string>
+    <string name="no_money">Тиыныңыз жеткілікті емес мөлшерлеме үшін осы</string>
+    <string name="no_search_current_location">Біз орналасқан жеріңізді анықтай алма</string>
+    <string name="no_status">Мәртебе жоқ</string>
+    <string name="no_upload_image">Жүктеулі суреттеріңіз әзірге жоқ</string>
+    <string name="not_compain_photo">Өкінішке бұл суретке арыз айту болмайды</string>
+    <string name="not_known">Емес белгілі</string>
+    <string name="not_one">Бір емес (- на)</string>
+    <string name="noted">Белгіле-</string>
+    <string name="notifacation">Хабарламалар</string>
+    <string name="notification_of">Хабарламалар қос-</string>
+    <string name="occupation">Қызмет ру</string>
+    <string name="of_notification">Хабарламаларды қосқыңыз келеді</string>
+    <string name="ok">Ок</string>
+    <string name="on_notification">Хабарламаларды сөндіргіңіз келеді</string>
+    <string name="online_users">Онлайн пайдаланушылар</string>
+    <string name="opponents">Қарсыластар</string>
+    <string name="packages">Комплекция</string>
+    <string name="password">Құпиясөз</string>
+    <string name="password_send_email">Құпиясөз жіберілді, на көрсетілген пошта</string>
+    <string name="payment">Төлемақы</string>
+    <string name="phone">Телефон нөмірі</string>
+    <string name="phone_number">Телефонның нөмірі</string>
+    <string name="photo_album">Фотоальбом</string>
+    <string name="place_rest">Демалыс үшін орын</string>
+    <string name="places">Орындар</string>
+    <string name="places_rest">Демалыс үшін орындар</string>
+    <string name="plans">Жоспарлар</string>
+    <string name="plans_evening">Кешке жоспарлар</string>
+    <string name="price">Баға</string>
+    <string name="professional_massage">Кәсіби ысқыла-</string>
+    <string name="profile">Профиль</string>
+    <string name="rate">Мөлшерлеме</string>
+    <string name="rating">Рейтинг</string>
+    <string name="reason_complaint">Арыз себебі</string>
+    <string name="reestablish_password">Құпиясөзді өзгерту</string>
+    <string name="refill">Нұсқау теңгерім есепшот \nо толықтандыр</string>
+    <string name="register">Тіркелу</string>
+    <string name="remaining_time">Оставщяся уақыт</string>
+    <string name="removal_information">Алыстат- туралы ақпарат</string>
+    <string name="reply_moderator">Енді сіз сұранысты жібер-, модератордан жауапты күтіңіз</string>
+    <string name="request">Сұраныстар</string>
+    <string name="request_key_activation">Қосылу кодын сұрау</string>
+    <string name="rest">Демаламын</string>
+    <string name="restore_password">Құпиясөзді қалпына келтіру</string>
+    <string name="result_empty">Іздеу нәтижесі жоқ</string>
+    <string name="reviews">Жазба пікірлер</string>
+    <string name="save">Сақтау</string>
+    <string name="save_user">Мені есінде бол-</string>
+    <string name="search">Ізденіс</string>
+    <string name="search_">Іздеу</string>
+    <string name="search_couples">Жұп ізденісі</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Іздеу"</string>
+    <string name="search_param">Ізденіс параметрлер</string>
+    <string name="seconds_ago">секунд бұрын</string>
+    <string name="select">Таңдап алу</string>
+    <string name="select_bid">Мөлшерлемені таңдап алыңыздар</string>
+    <string name="select_item">Пәнді таңдап алу</string>
+    <string name="select_option">Нұсқаны таңдап алыңыздар</string>
+    <string name="select_type">Выбирите түр</string>
+    <string name="selection_user">Пайдаланушы талғам</string>
+    <string name="selection_user_width_you">Пайдаланушыны белгілегіңіз келеді нешінші сендермен болады</string>
+    <string name="send">Жіберу</string>
+    <string name="send_invitation">Жіберу шақыру</string>
+    <string name="send_request">Сұраныс жіберілді</string>
+    <string name="send_request_">Сұранысты жіберу</string>
+    <string name="send_success_gift">Сыйлық ойдағыдай жіберілді</string>
+    <string name="setting">Теңшелімдер</string>
+    <string name="setting_language">Тіл теңшелім</string>
+    <string name="share">Бөлісу</string>
+    <string name="short_description">Қысқа сипаттама</string>
+    <string name="show">Көрсету</string>
+    <string name="skating">Тебемін</string>
+    <string name="skip">Өткізіп алу >></string>
+    <string name="smoking">Темекі шек- қатынас</string>
+    <string name="status">Мәртебе</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="string_register_email">Электрондық пошта</string>
+    <string name="string_register_login">Логин-ні ойлап табыңыздар</string>
+    <string name="strip_dancing">Стрип-Би</string>
+    <string name="subject">Пән</string>
+    <string name="success">Ойдағыдай</string>
+    <string name="success_delete_account">Сіз ойдағыдай аккаунтты алып тастадыңыз</string>
+    <string name="success_evening">Сіз сәтті қосылды</string>
+    <string name="success_update_password">Құпиясөз ойдағыдай өзгертілді</string>
+    <string name="time_meeting">Кездесу уақыты</string>
+    <string name="top_user">Пайдаланушылар Топ</string>
+    <string name="total">Бәрі:</string>
+    <string name="total_">Итого</string>
+    <string name="total_coins">Тиын</string>
+    <string name="type_appearance">Келбет түр</string>
+    <string name="type_institution">мектеп түр</string>
+    <string name="type_payment">Төлемақы түр</string>
+    <string name="unknown_data">Неизвестная қате</string>
+    <string name="update">Жаңалау</string>
+    <string name="update_status">Сіз пайдаланушы болыңдар өмк</string>
+    <string name="upload_albul_payment">Үшін суреттерді тиеу төлеу үлкен керек</string>
+    <string name="user_data">Анкеталық мәліметтер</string>
+    <string name="victory">Жеңіс</string>
+    <string name="view">Қарау</string>
+    <string name="view_meeting">Кездесудің түрі</string>
+    <string name="vip_user">VIP болғым келеді ме пайдаланушы?</string>
+    <string name="wait">Күтіңіз …</string>
+    <string name="walking">Қыдырамын</string>
+    <string name="want_here">Мында қалаймын!</string>
+    <string name="website">Веб-сайт</string>
+    <string name="weight">Салмақ</string>
+    <string name="womans">Әйел</string>
+    <string name="work_hours">Жұмыс уақыты</string>
+    <string name="year_birth">Туған жыл</string>
+    <string name="yes">Иә</string>
+    <string name="you_blocked">Сендер бұғатталған бол-</string>
+    <string name="you_email">Email</string>
+    <string name="you_expense">Есепшотыңыз үшін</string>
+    <string name="you_here">Сендер мында</string>
+    <string name="you_like">Лайкнул - (ал) сендер</string>
+    <string name="you_liked">Сендер ұнадыңыз</string>
+    <string name="you_lose">Сендер жеңіліп қал-</string>
+    <string name="you_won">Сендер жеңдіңіз</string>
+    <string name="your_reviews">Жазба пікіріңіз...</string>
+</resources>

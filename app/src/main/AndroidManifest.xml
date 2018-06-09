@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zoomapps.eromance">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.PRIORITY_HIGH_ACCURACY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarTheme"
+        android:windowSoftInputMode="stateHidden">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.vk.sdk.VKServiceActivity"
+            android:label="ServiceActivity"
+            android:theme="@style/VK.Transparent"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="ru.ok.android.sdk.OkAuthActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="ok1253895168"
+                    android:scheme="okauth" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.ok.android.sdk.OkPostingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ru.ok.android.sdk.OkAppInviteActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ru.ok.android.sdk.OkAppSuggestActivity" android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_api_key" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e9472f706e60a333b1bbe526a486fed4391503b1" />
+
+        <service android:name=".Services.FireBaseService.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Services.FireBaseService.MyInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Services.NetworkCheckService.NetworkCheckSocketService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".Activities.auth.RegisterObActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.AuthActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <data android:scheme="vk6151431" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+
+
+
+        <!--<activity android:name=".Activities.auth.EditProfileActivity" android:screenOrientation="portrait">-->
+            <!--<intent-filter>-->
+                <!--<data android:scheme="vk6151431" />-->
+
+                <!--<action android:name="android.intent.action.VIEW" />-->
+
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+            <!--&lt;!&ndash; <intent-filter> &ndash;&gt;-->
+            <!--&lt;!&ndash; <action android:name="android.intent.action.MAIN" /> &ndash;&gt;-->
+
+
+            <!--&lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;-->
+            <!--&lt;!&ndash; </intent-filter> &ndash;&gt;-->
+        <!--</activity>-->
+
+
+
+
+
+
+        <activity android:name=".Activities.SearchPairActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.SettingLanguageActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.AddBalanceActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.GameCreatedActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.TwentyOneSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.PlacesForRestProlongationActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.ParameterSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.TwentyOneLicenseAgreementActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.MapsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.UserQuessionaryActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.PlacesForRestActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.TestActivity"
+            android:label="@string/title_activity_test"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".Activities.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.UserProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Helpers.BaseMainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.MyProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.DialogsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.GameListActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.auth.EditProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.MomentalMeetsActivity"
+            android:label="@string/title_activity_momental_meets"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".Activities.CreateMeetActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.PlacesForRestListActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.EveningsListActivity"
+            android:label="@string/title_activity_evenings_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".Activities.EveningsCreateActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.AddAlbumActivity"
+            android:label="@string/title_activity_add_album"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".Activities.ImageCropActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.FoundPairUserList"
+            android:label="@string/title_activity_add_album"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".Activities.ChatActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.FullScreenImage" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.FavoritesListActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.TwentyOneStartActivty" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.ContactWithDevActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.TwentyOneBecomeProviderActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.UserNotificationEventsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.PasswordInteractionActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.MyGuestsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".BaseActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".LinkerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.UserReviewActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_user_review"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".Activities.TwentyOneUsersMainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.TwentyOneRequestsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.GiftsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.SearchUserActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.LanguageChooseActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activities.SocialRegisterActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.MorePushInfoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_more_push_info"
+            android:theme="@style/NoActionBarTheme"></activity>
+        <activity android:name=".Activities.AuthActivity2" android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

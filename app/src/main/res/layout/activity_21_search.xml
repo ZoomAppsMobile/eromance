@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_alignTop="@+id/main_fields_container"
+            android:layout_alignBottom="@id/main_fields_container"
+            android:layout_alignRight="@id/main_fields_container"
+            android:layout_alignLeft="@id/main_fields_container"
+            app:srcCompat="@drawable/backgound_search" />
+    <ScrollView
+        android:id="@+id/main_fields_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:paddingBottom="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="160dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/logoerom" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/cb_delicate_conversation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/delicate_conversation"
+                        android:typeface="monospace" />
+
+                    <CheckBox
+                        android:id="@+id/cb_strep_dance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/strip_dancing"
+                        android:typeface="monospace" />
+
+                    <CheckBox
+                        android:id="@+id/cb_accompanying_escord"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:elevation="0dp"
+                        android:text="@string/escort"
+                        android:typeface="monospace" />
+
+                    <CheckBox
+                        android:id="@+id/cb_professional_massage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/professional_massage"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/msSex"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/RlKeyActivation"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:background="@color/cardview_light_background"
+                        android:focusable="false"
+                        android:gravity="top|left"
+                        android:longClickable="false"
+                        android:padding="0dp"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Пол"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:visibility="gone"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/height_text_container"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginStart="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_age"
+                                    android:textColor="@color/golden"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Возраст"
+                                    android:textSize="16sp"
+                                    android:typeface="monospace" />
+
+                                <TextView
+                                    android:id="@+id/tv_tick_start"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="0"
+                                    android:typeface="monospace" />
+
+                                <TextView
+                                    android:id="@+id/tv_dash"
+                                    android:textColor="@color/golden"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:layout_marginRight="3dp"
+                                    android:text="-"
+                                    android:typeface="monospace" />
+
+                                <TextView
+                                    android:id="@+id/tv_tick_end"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:typeface="monospace" />
+
+                            </LinearLayout>
+
+                            <com.appyvet.rangebar.RangeBar
+                                android:layout_below="@id/height_text_container"
+                                android:id="@+id/rangebar"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:connectingLineColor="@color/white"
+                                app:pinColor="@color/golden"
+                                app:rangeBarColor="@color/golden"
+                                app:selectorColor="@color/golden"
+                                app:tickColor="@color/golden"
+                                app:tickEnd="80"
+                                app:tickInterval="2"
+                                app:tickStart="21" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </RelativeLayout>
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:visibility="gone"
+                        android:id="@+id/msAppearence"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/RlKeyActivation"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:background="@color/cardview_light_background"
+                        android:focusable="false"
+                        android:gravity="top|left"
+                        android:longClickable="false"
+                        android:padding="0dp"
+                        app:ms_alignLabels="false"
+                        app:ms_arrowColor="@color/cardview_light_background"
+                        app:ms_arrowSize="16dp"
+                        app:ms_baseColor="@color/cardview_light_background"
+                        app:ms_enableErrorLabel="false"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/cardview_light_background"
+                        app:ms_floatingLabelText="floating label"
+                        app:ms_hint="Комплектация"
+                        app:ms_hintColor="@color/cardview_light_background"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1dp" />
+
+                    <EditText
+                        android:id="@+id/request_description_ED"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/tvPass"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:ems="10"
+
+                        android:hint="@string/short_description"
+                        android:inputType="textMultiLine" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_sell_request"
+                        android:layout_width="220dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/btn_component_background"
+                        android:text="@string/send_request_" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_continion"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

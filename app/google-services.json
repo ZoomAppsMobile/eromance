@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "720365868388",
+    "firebase_url": "https://eromance-a1c4b.firebaseio.com",
+    "project_id": "eromance-a1c4b",
+    "storage_bucket": "eromance-a1c4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720365868388:android:09978a0a60ddd138",
+        "android_client_info": {
+          "package_name": "com.zoomapps.eromance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720365868388-e7g87smgsr4fj509ql607k80ifq9qjgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zoomapps.eromance",
+            "certificate_hash": "30438a03c89304a4860a05d385d65be13a7b31b9"
+          }
+        },
+        {
+          "client_id": "720365868388-qtgko2ie7lmfu46k299h9frvt38rgpes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSJUZOo5QMWxILw3ok5XHPxN778AuJurM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720365868388-qtgko2ie7lmfu46k299h9frvt38rgpes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
